@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Experimenting with Isomorphic ReactJS",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "server": "node_modules/.bin/babel-node --presets react,es2015 app.js",
+    "server-watch": "nodemon app.js --exec node_modules/.bin/babel-node --presets react,es2015"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArunMichaelDsouza/isomorphic-react.git"
