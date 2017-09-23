@@ -1,0 +1,27 @@
+{
+  "name": "isomorphic-react",
+  "version": "1.0.0",
+  "description": "Experimenting with Isomorphic ReactJS",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArunMichaelDsouza/isomorphic-react.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArunMichaelDsouza/isomorphic-react/issues"
+  },
+  "homepage": "https://github.com/ArunMichaelDsouza/isomorphic-react#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
