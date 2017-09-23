@@ -1,8 +1,9 @@
-const express = require('express'),
-	app = express(),
-	React = require('react'),
-	ReactDOM = require('react-dom/server'),
-	Button = require('./components/Button.jsx');
+import express from 'express';
+import React from 'react';
+import ReactDOM from 'react-dom/server';
+import Button from './components/Button.jsx';
+
+const app = express();
 
 app.get('/', (req, res) => {
 	const ButtonEl = ReactDOM.renderToString(<Button />);

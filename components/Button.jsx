@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 
 class Button extends React.Component {
 	render() {
@@ -6,4 +6,4 @@ class Button extends React.Component {
 	}
 }
 
-module.exports = Button;
+export default Button;
